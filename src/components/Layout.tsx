@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -31,7 +30,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="text-2xl font-bold text-primary">
+              <img 
+                src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
+                alt="Sneha Jain & Associates Logo" 
+                className="h-12 w-auto mr-3"
+              />
+              <div className="text-xl lg:text-2xl font-bold text-primary">
                 Sneha Jain & Associates
               </div>
             </Link>
@@ -122,7 +126,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="col-span-1 lg:col-span-2">
-              <h3 className="text-xl font-bold mb-4">Sneha Jain & Associates</h3>
+              <div className="flex items-center mb-4">
+                <img 
+                  src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
+                  alt="Sneha Jain & Associates Logo" 
+                  className="h-10 w-auto mr-3 brightness-0 invert"
+                />
+                <h3 className="text-xl font-bold">Sneha Jain & Associates</h3>
+              </div>
               <p className="text-gray-300 mb-4">
                 Premier legal services from courtroom to boardroom. We provide comprehensive 
                 legal solutions for individuals, businesses, and institutions.
