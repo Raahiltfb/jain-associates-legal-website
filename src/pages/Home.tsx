@@ -46,8 +46,18 @@ const Home: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-50 to-blue-50 py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-20 lg:py-32 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-white/50 backdrop-blur-sm z-0" />
+  
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -55,8 +65,8 @@ const Home: React.FC = () => {
                 <span className="block text-primary">From Courtroom to Boardroom</span>
               </h1>
               <p className="text-xl text-gray-600 mt-6 leading-relaxed">
-                At Sneha Jain & Associates, we provide comprehensive legal services with 
-                strategic thinking, personalized attention, and unwavering commitment to your success.
+                At Sneha Jain & Associates, we provide comprehensive legal services with strategic thinking, personalized
+                attention, and unwavering commitment to your success.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
@@ -66,18 +76,14 @@ const Home: React.FC = () => {
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <Link to="/practice-areas">
-                    View Practice Areas
-                  </Link>
+                  <Link to="/practice-areas">View Practice Areas</Link>
                 </Button>
               </div>
             </div>
             <div className="relative">
               <div className="bg-white rounded-lg shadow-2xl p-8">
                 <Scale className="w-16 h-16 text-primary mb-6" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Professional Legal Excellence
-                </h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Legal Excellence</h3>
                 <p className="text-gray-600 mb-6">
                   Building confidence through expert legal representation and strategic advisory services.
                 </p>
@@ -217,7 +223,7 @@ const Home: React.FC = () => {
                 Call Now: +91 98765 43210
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-black border-white hover:bg-white hover:text-primary" asChild>
               <Link to="/contact">
                 Get In Touch
               </Link>

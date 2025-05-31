@@ -181,7 +181,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Sneha Jain & Associates. All rights reserved.</p>
+            <p>&copy; 2025 Sneha Jain & Associates. All rights reserved.</p>
             <p className="mt-2 text-sm">
               This website is not intended for advertising purposes as per Bar Council of India guidelines.
             </p>
