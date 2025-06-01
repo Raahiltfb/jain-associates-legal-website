@@ -54,41 +54,41 @@ const Home: React.FC = () => {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-white/50 backdrop-blur-sm z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-50/80 to-stone-100/80 backdrop-blur-sm z-0" />
   
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-4xl lg:text-6xl font-bold text-stone-900 leading-tight">
                 Your Trusted Legal Partners
                 <span className="block text-primary">From Courtroom to Boardroom</span>
               </h1>
-              <p className="text-xl text-gray-600 mt-6 leading-relaxed">
+              <p className="text-xl text-stone-700 mt-6 leading-relaxed">
                 At Sneha Jain & Associates, we provide comprehensive legal services with strategic thinking, personalized
                 attention, and unwavering commitment to your success.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild>
+                <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
                   <Link to="/contact" className="flex items-center">
                     Schedule Consultation
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Link>
                 </Button>
-                <Button variant="outline" size="lg" asChild>
+                <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white" asChild>
                   <Link to="/practice-areas">View Practice Areas</Link>
                 </Button>
               </div>
             </div>
             <div className="relative">
-              <div className="bg-white rounded-lg shadow-2xl p-8">
+              <div className="bg-gradient-to-br from-amber-50 to-stone-100 rounded-lg shadow-2xl p-8 border border-stone-200">
                 <Scale className="w-16 h-16 text-primary mb-6" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Legal Excellence</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-2xl font-bold text-stone-900 mb-4">Professional Legal Excellence</h3>
+                <p className="text-stone-700 mb-6">
                   Building confidence through expert legal representation and strategic advisory services.
                 </p>
-                <div className="flex items-center text-sm text-gray-500">
-                  <Star className="w-4 h-4 text-yellow-500 mr-1" />
+                <div className="flex items-center text-sm text-stone-600">
+                  <Star className="w-4 h-4 text-amber-500 mr-1" />
                   <Link to="/testimonials" className="hover:text-primary transition-colors cursor-pointer">
                     Trusted by clients across India
                   </Link>
@@ -100,13 +100,13 @@ const Home: React.FC = () => {
       </section>
 
       {/* Featured Services */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-stone-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-stone-900 mb-4">
               Our Core Practice Areas
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-stone-700 max-w-3xl mx-auto">
               Comprehensive legal services tailored to meet your unique needs across 
               litigation and non-litigation domains.
             </p>
@@ -114,15 +114,15 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {featuredServices.map((service, index) => (
-              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-amber-50 border-stone-200">
                 <div className="mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-xl font-semibold text-stone-900 mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-stone-700 mb-4">
                   {service.description}
                 </p>
-                <Button variant="outline" size="sm" asChild>
+                <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white" asChild>
                   <Link to="/practice-areas" className="flex items-center">
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2" />
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Button size="lg" asChild>
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
               <Link to="/practice-areas">
                 View All Practice Areas
               </Link>
@@ -143,14 +143,14 @@ const Home: React.FC = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gradient-to-br from-amber-100 to-stone-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-bold text-stone-900 mb-6">
                 Why Choose Sneha Jain & Associates?
               </h2>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-xl text-stone-700 mb-8">
                 With years of independent practice and a commitment to excellence, 
                 we bring strategic thinking and personalized attention to every case.
               </p>
@@ -159,13 +159,13 @@ const Home: React.FC = () => {
                 {whyChooseUs.map((point, index) => (
                   <div key={index} className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                    <span className="text-gray-700">{point}</span>
+                    <span className="text-stone-700">{point}</span>
                   </div>
                 ))}
               </div>
               
               <div className="mt-8">
-                <Button size="lg" asChild>
+                <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
                   <Link to="/about">
                     Learn More About Us
                   </Link>
@@ -173,11 +173,11 @@ const Home: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-xl p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            <div className="bg-gradient-to-br from-amber-50 to-stone-100 rounded-lg shadow-xl p-8 border border-stone-200">
+              <h3 className="text-2xl font-bold text-stone-900 mb-6">
                 Ready to Get Started?
               </h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-stone-700 mb-6">
                 Contact us today for a consultation and let us help you navigate 
                 your legal challenges with confidence.
               </p>
@@ -191,12 +191,12 @@ const Home: React.FC = () => {
                     Schedule via WhatsApp
                   </a>
                 </Button>
-                <Button variant="outline" className="w-full" size="lg" asChild>
+                <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-white" size="lg" asChild>
                   <a href="mailto:contact@snehajainlaw.com">
                     Email for Consultation
                   </a>
                 </Button>
-                <Button variant="outline" className="w-full" size="lg" asChild>
+                <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-white" size="lg" asChild>
                   <Link to="/contact">
                     Visit Contact Page
                   </Link>
@@ -208,7 +208,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-primary text-white">
+      <section className="py-20 bg-gradient-to-r from-primary to-red-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Professional Legal Support When You Need It Most
@@ -218,12 +218,12 @@ const Home: React.FC = () => {
             to provide the strategic guidance and representation you deserve.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" asChild>
+            <Button size="lg" variant="secondary" className="bg-amber-100 text-stone-900 hover:bg-amber-200" asChild>
               <a href="tel:+919876543210" className="flex items-center">
                 Call Now: +91 98765 43210
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-black border-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary" asChild>
               <Link to="/contact">
                 Get In Touch
               </Link>
