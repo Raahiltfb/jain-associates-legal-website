@@ -24,9 +24,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-50 to-amber-50">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-gradient-to-r from-stone-100 to-amber-100 shadow-lg border-b border-stone-300 sticky top-0 z-50">
+      <header className="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
@@ -34,9 +34,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <img 
                 src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
                 alt="Sneha Jain & Associates Logo" 
-                className="h-12 w-auto mr-3"
+                className="h-12 w-auto mr-3 filter brightness-0"
               />
-              <div className="text-xl lg:text-2xl font-bold text-primary drop-shadow-sm tracking-wide">
+              <div className="text-xl lg:text-2xl font-bold text-primary tracking-wide">
                 Sneha Jain & Associates
               </div>
             </Link>
@@ -48,7 +48,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   key={item.name}
                   to={item.href}
                   className={`text-sm font-medium transition-colors hover:text-primary ${
-                    isActive(item.href) ? 'text-primary border-b-2 border-primary' : 'text-stone-700'
+                    isActive(item.href) ? 'text-primary border-b-2 border-primary' : 'text-gray-700'
                   }`}
                 >
                   {item.name}
@@ -75,7 +75,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 rounded-md text-stone-600 hover:text-primary"
+              className="lg:hidden p-2 rounded-md text-gray-600 hover:text-primary"
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -84,7 +84,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-stone-50 border-t border-stone-200">
+          <div className="lg:hidden bg-gray-50 border-t border-gray-200">
             <div className="px-4 py-2 space-y-1">
               {navigation.map((item) => (
                 <Link
@@ -92,8 +92,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   to={item.href}
                   className={`block px-3 py-2 text-sm font-medium rounded-md transition-colors ${
                     isActive(item.href) 
-                      ? 'text-primary bg-amber-100' 
-                      : 'text-stone-700 hover:text-primary hover:bg-stone-100'
+                      ? 'text-primary bg-gray-100' 
+                      : 'text-gray-700 hover:text-primary hover:bg-gray-100'
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -123,7 +123,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <main>{children}</main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-br from-stone-800 to-stone-900 text-amber-50">
+      <footer className="bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="col-span-1 lg:col-span-2">
@@ -131,11 +131,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <img 
                   src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
                   alt="Sneha Jain & Associates Logo" 
-                  className="h-10 w-auto mr-3 brightness-0 invert"
+                  className="h-10 w-auto mr-3 filter brightness-0 invert"
                 />
                 <h3 className="text-xl font-bold">Sneha Jain & Associates</h3>
               </div>
-              <p className="text-stone-300 mb-4">
+              <p className="text-gray-300 mb-4">
                 Premier legal services from courtroom to boardroom. We provide comprehensive 
                 legal solutions for individuals, businesses, and institutions.
               </p>
@@ -158,11 +158,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-amber-100">Quick Links</h4>
+              <h4 className="text-lg font-semibold mb-4 text-gray-100">Quick Links</h4>
               <ul className="space-y-2">
                 {navigation.map((item) => (
                   <li key={item.name}>
-                    <Link to={item.href} className="text-stone-300 hover:text-amber-200 transition-colors">
+                    <Link to={item.href} className="text-gray-300 hover:text-white transition-colors">
                       {item.name}
                     </Link>
                   </li>
@@ -171,8 +171,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-amber-100">Contact Info</h4>
-              <div className="space-y-2 text-stone-300">
+              <h4 className="text-lg font-semibold mb-4 text-gray-100">Contact Info</h4>
+              <div className="space-y-2 text-gray-300">
                 <p>Phone: +91 98765 43210</p>
                 <p>Email: contact@snehajainlaw.com</p>
                 <p>Office Hours: Mon-Fri 9:00 AM - 6:00 PM</p>
@@ -180,7 +180,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
           
-          <div className="border-t border-stone-700 mt-8 pt-8 text-center text-stone-400">
+          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sneha Jain & Associates. All rights reserved.</p>
             <p className="mt-2 text-sm">
               This website is not intended for advertising purposes as per Bar Council of India guidelines.
@@ -198,7 +198,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </svg>
           </a>
         </Button>
-        <Button variant="outline" size="sm" className="rounded-full shadow-lg bg-amber-50 border-primary text-primary hover:bg-primary hover:text-white" asChild>
+        <Button variant="outline" size="sm" className="rounded-full shadow-lg bg-white border-primary text-primary hover:bg-primary hover:text-white" asChild>
           <a href="tel:+919876543210">
             <Phone className="w-4 h-4" />
           </a>
