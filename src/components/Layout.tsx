@@ -17,7 +17,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { name: 'About Us', href: '/about' },
     { name: 'Practice Areas', href: '/practice-areas' },
     { name: 'Testimonials', href: '/testimonials' },
-    { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -34,7 +33,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <img 
                 src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
                 alt="Sneha Jain & Associates Logo" 
-                className="h-12 w-auto mr-3 filter brightness-0"
+                className="h-12 w-auto mr-3"
+                style={{ filter: 'brightness(0) saturate(100%)' }}
               />
               <div className="text-xl lg:text-2xl font-bold text-primary tracking-wide">
                 Sneha Jain & Associates
@@ -131,7 +131,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <img 
                   src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
                   alt="Sneha Jain & Associates Logo" 
-                  className="h-10 w-auto mr-3 filter brightness-0 invert"
+                  className="h-10 w-auto mr-3"
+                  style={{ filter: 'brightness(0) saturate(100%) invert(1)' }}
                 />
                 <h3 className="text-xl font-bold">Sneha Jain & Associates</h3>
               </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -36,11 +35,8 @@ const Home: React.FC = () => {
 
   const whyChooseUs = [
     "3+ years of independent practice experience",
-    "Comprehensive legal expertise across 20+ practice areas",
-    "Client-focused approach with personalized solutions",
-    "Strong network of experienced counsels and experts",
-    "Proven track record in courtroom advocacy",
-    "End-to-end legal support from advisory to litigation"
+    "Comprehensive legal expertise across 27+ practice areas",
+    "Client-focused approach with personalized solutions"
   ];
 
   return (
