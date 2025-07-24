@@ -87,7 +87,7 @@ Message: ${formData.message}`;
     {
       icon: <Building className="w-8 h-8 text-primary" />,
       title: "Office Meeting",
-      description: "In-person consultation at our office",
+      description: "In-person consultation at one of our office",
       action: null
     }
   ];
