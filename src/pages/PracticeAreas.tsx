@@ -6,17 +6,27 @@ import { Link } from 'react-router-dom';
 import { 
   Scale, 
   Building, 
-  FileText, 
   Home, 
-  Copyright, 
-  Banknote, 
-  Calculator, 
-  Users, 
-  Rocket, 
-  Shield, 
   Heart, 
+  ShieldCheck, 
+  Gavel, 
+  FileText, 
+  Copyright, 
+  Handshake, 
+  Banknote, 
+  Briefcase, 
+  DollarSign,
+  Users, 
+  ShieldX, 
   UserCheck, 
+  Calculator, 
+  Shield, 
+  Leaf, 
+  Rocket, 
+  MapPin, 
   FileCheck, 
+  Anchor, 
+  ClipboardCheck,
   ArrowRight 
 } from 'lucide-react';
 
@@ -33,59 +43,109 @@ const PracticeAreas: React.FC = () => {
       description: "Business incorporation, shareholder agreements, legal opinions, M&A due diligence, FEMA compliance, and general corporate advisory services."
     },
     {
-      icon: <FileText className="w-8 h-8 text-primary" />,
-      title: "Contracts & Transactional Advisory",
-      description: "Drafting and review of lease deeds, franchise agreements, employment contracts, joint ventures, and all commercial documentation."
-    },
-    {
       icon: <Home className="w-8 h-8 text-primary" />,
       title: "Real Estate & Property Law",
       description: "Title due diligence, property documentation, RERA compliance, joint development agreements, and real estate dispute resolution."
     },
     {
+      icon: <Heart className="w-8 h-8 text-primary" />,
+      title: "Family Law",
+      description: "Matrimonial disputes, divorce proceedings, child custody, domestic violence cases, and family settlement agreements."
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8 text-primary" />,
+      title: "Criminal Law",
+      description: "Bail applications, quashing petitions, cheque bounce cases, fraud matters, cybercrime defense, and criminal litigation."
+    },
+    {
+      icon: <Gavel className="w-8 h-8 text-primary" />,
+      title: "Civil Law",
+      description: "Civil disputes, property matters, contract violations, tort claims, and general civil litigation before courts."
+    },
+    {
+      icon: <FileText className="w-8 h-8 text-primary" />,
+      title: "Contracts & Agreements",
+      description: "Drafting and review of all commercial contracts, agreements, MOUs, NDAs, and transactional documentation."
+    },
+    {
       icon: <Copyright className="w-8 h-8 text-primary" />,
-      title: "Intellectual Property Rights",
-      description: "Trademark, copyright, and design registration, IP portfolio management, licensing, franchising, and brand protection services."
+      title: "Intellectual Property Rights (IPR)",
+      description: "Trademark, copyright, and design registration, IP portfolio management, licensing, and brand protection services."
+    },
+    {
+      icon: <Handshake className="w-8 h-8 text-primary" />,
+      title: "Arbitration & Mediation",
+      description: "Alternative dispute resolution, arbitration proceedings, mediation services, and out-of-court settlement negotiations."
     },
     {
       icon: <Banknote className="w-8 h-8 text-primary" />,
-      title: "Banking, Finance & Regulatory",
-      description: "Loan documentation, NBFC advisory, fintech compliance, mortgage and project finance, regulatory responses and compliance."
+      title: "Banking & Finance Law",
+      description: "Loan documentation, NBFC advisory, fintech compliance, mortgage documentation, and financial regulatory matters."
     },
     {
-      icon: <Calculator className="w-8 h-8 text-primary" />,
-      title: "Taxation & Statutory Support",
-      description: "Direct and indirect tax advisory, GST and income tax notice responses, coordination with tax consultants and CAs."
+      icon: <Briefcase className="w-8 h-8 text-primary" />,
+      title: "NCLT & Insolvency Law",
+      description: "Insolvency proceedings, corporate restructuring, NCLT/NCLAT representation, and debt resolution processes."
+    },
+    {
+      icon: <DollarSign className="w-8 h-8 text-primary" />,
+      title: "Debt Recovery & DRT Matters",
+      description: "Debt recovery proceedings, DRT litigation, SARFAESI actions, and enforcement of security interests."
     },
     {
       icon: <Users className="w-8 h-8 text-primary" />,
       title: "Employment & Labour Law",
-      description: "Employment contracts, HR policies, labour law compliance, POSH compliance, and Internal Committee documentation."
+      description: "Employment contracts, HR policies, labour law compliance, POSH compliance, and workplace legal matters."
     },
     {
-      icon: <Rocket className="w-8 h-8 text-primary" />,
-      title: "Startup & MSME Legal Support",
-      description: "Incorporation, term sheets, ESOP structuring, DPIIT compliance, and comprehensive startup legal ecosystem support."
-    },
-    {
-      icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Data Protection & Cyber Laws",
-      description: "Cyber fraud support, privacy policies, DPDP Act compliance, IT Act advisory, and cross-border data flow guidance."
-    },
-    {
-      icon: <Heart className="w-8 h-8 text-primary" />,
-      title: "Estate Planning & Private Client",
-      description: "Wills, gift deeds, family settlements, HUF structuring, succession planning, probate and inheritance law support."
+      icon: <ShieldX className="w-8 h-8 text-primary" />,
+      title: "Consumer Protection Law",
+      description: "Consumer disputes, product liability, service deficiency cases, and representation before consumer forums."
     },
     {
       icon: <UserCheck className="w-8 h-8 text-primary" />,
-      title: "Company Secretary Services",
-      description: "ROC/MCA filings, FEMA compliance, secretarial audits, Board resolutions, and comprehensive secretarial services."
+      title: "Inheritance, Wills & Succession Planning",
+      description: "Wills, succession planning, probate matters, family settlements, and inheritance dispute resolution."
+    },
+    {
+      icon: <Calculator className="w-8 h-8 text-primary" />,
+      title: "Taxation & GST Advisory",
+      description: "Direct and indirect tax advisory, GST compliance, tax notice responses, and coordination with tax consultants."
+    },
+    {
+      icon: <Shield className="w-8 h-8 text-primary" />,
+      title: "Cyber Law & Data Protection",
+      description: "Cyber fraud cases, privacy policies, DPDP Act compliance, IT Act advisory, and data protection matters."
+    },
+    {
+      icon: <Leaf className="w-8 h-8 text-primary" />,
+      title: "Environmental & Regulatory Law",
+      description: "Environmental compliance, pollution control, regulatory approvals, and environmental dispute resolution."
+    },
+    {
+      icon: <Rocket className="w-8 h-8 text-primary" />,
+      title: "Startups & Legal Compliance",
+      description: "Startup incorporation, funding documentation, regulatory compliance, and comprehensive startup legal support."
+    },
+    {
+      icon: <MapPin className="w-8 h-8 text-primary" />,
+      title: "Land & Revenue Matters",
+      description: "Land acquisition, revenue records, survey settlements, and land-related dispute resolution."
     },
     {
       icon: <FileCheck className="w-8 h-8 text-primary" />,
-      title: "Legal Notices & Documentation",
-      description: "Legal notice drafting and responses, expert legal opinions, and customized documentation for all transactions."
+      title: "Legal Documentation & Opinions",
+      description: "Legal notice drafting, expert opinions, customized documentation, and comprehensive legal advisory services."
+    },
+    {
+      icon: <Anchor className="w-8 h-8 text-primary" />,
+      title: "Maritime & Shipping Law",
+      description: "Maritime contracts, shipping disputes, port regulations, admiralty matters, and marine insurance claims."
+    },
+    {
+      icon: <ClipboardCheck className="w-8 h-8 text-primary" />,
+      title: "Corporate Compliance & Regulatory Advisory",
+      description: "Corporate governance, regulatory compliance, statutory filings, and ongoing corporate advisory services."
     }
   ];
 
@@ -99,6 +159,8 @@ const PracticeAreas: React.FC = () => {
               Our Practice Areas
             </h1>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              <span className="font-semibold">Your Trusted Legal Partners – From Courtroom to Boardroom</span>
+              <br /><br />
               At Sneha Jain & Associates, we provide a comprehensive range of legal services spanning both 
               litigation and non-litigation domains. Whether you're navigating complex court proceedings, 
               structuring a business deal, or seeking legal clarity on regulatory matters, our team of 
