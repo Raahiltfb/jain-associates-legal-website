@@ -29,7 +29,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
+            <Link 
+              to="/" 
+              className="flex items-center"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               <img 
                 src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
                 alt="Sneha Jain & Associates Logo" 
@@ -50,6 +54,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   className={`text-sm font-medium transition-colors hover:text-primary ${
                     isActive(item.href) ? 'text-primary border-b-2 border-primary' : 'text-gray-700'
                   }`}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
                   {item.name}
                 </Link>
@@ -95,7 +100,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                       ? 'text-primary bg-gray-100' 
                       : 'text-gray-700 hover:text-primary hover:bg-gray-100'
                   }`}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                 >
                   {item.name}
                 </Link>
@@ -163,7 +171,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <ul className="space-y-2">
                 {navigation.map((item) => (
                   <li key={item.name}>
-                    <Link to={item.href} className="text-gray-300 hover:text-white transition-colors">
+                    <Link 
+                      to={item.href} 
+                      className="text-gray-300 hover:text-white transition-colors"
+                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    >
                       {item.name}
                     </Link>
                   </li>

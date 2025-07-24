@@ -183,9 +183,9 @@ const PracticeAreas: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
             {practiceAreas.map((area, index) => (
-              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-white border-gray-200 h-full">
+              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-white border-gray-200 h-full w-full">
                 <CardHeader className="pb-4">
                   <div className="mb-4">{area.icon}</div>
                   <CardTitle className="text-xl font-semibold text-black">
@@ -247,7 +247,7 @@ const PracticeAreas: React.FC = () => {
                 WhatsApp Consultation
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary bg-transparent" asChild>
               <Link to="/contact">
                 Schedule Meeting
               </Link>

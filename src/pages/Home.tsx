@@ -84,7 +84,7 @@ const Home: React.FC = () => {
                   Building confidence through expert legal representation and strategic advisory services.
                 </p>
                 <div className="flex items-center text-sm text-gray-600">
-                  <Star className="w-4 h-4 text-gray-400 mr-1" />
+                  <Star className="w-4 h-4 text-yellow-500 mr-1" />
                   <Link to="/testimonials" className="hover:text-primary transition-colors cursor-pointer">
                     Trusted by clients across India
                   </Link>
@@ -110,15 +110,15 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {featuredServices.map((service, index) => (
-              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-white border-gray-200">
+              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-white border-gray-200 flex flex-col h-full">
                 <div className="mb-4">{service.icon}</div>
                 <h3 className="text-xl font-semibold text-black mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-700 mb-4">
+                <p className="text-gray-700 mb-4 flex-grow">
                   {service.description}
                 </p>
-                <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white" asChild>
+                <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-white mt-auto" asChild>
                   <Link to="/practice-areas" className="flex items-center">
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2" />
@@ -219,7 +219,7 @@ const Home: React.FC = () => {
                 Call Now: +91 98765 43210
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary bg-transparent" asChild>
               <Link to="/contact">
                 Get In Touch
               </Link>

@@ -112,7 +112,7 @@ const Testimonials: React.FC = () => {
                   </div>
                   
                   <div className="relative">
-                    <Quote className="w-8 h-8 text-gray-300 absolute -top-2 -left-2" />
+                    <Quote className="w-8 h-8 text-gray-300 absolute -top-2 -left-2 transform scale-x-[-1]" />
                     <p className="text-gray-700 italic leading-relaxed pl-6">
                       "{testimonial.content}"
                     </p>
@@ -158,7 +158,7 @@ const Testimonials: React.FC = () => {
             
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Quote className="w-8 h-8 text-primary" />
+                <Quote className="w-8 h-8 text-primary transform scale-x-[-1]" />
               </div>
               <h4 className="text-xl font-semibold text-black mb-2">Communication</h4>
               <p className="text-gray-700">
@@ -198,7 +198,7 @@ const Testimonials: React.FC = () => {
                 Start Your Consultation
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary bg-transparent" asChild>
               <Link to="/contact">
                 Contact Us Today
               </Link>
