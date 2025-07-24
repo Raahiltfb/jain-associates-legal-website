@@ -137,7 +137,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="col-span-1 lg:col-span-2">
               <div className="flex items-center mb-4">
                 <img 
-                  src="/lovable-uploads/07bae83f-ca7d-4ba5-ac46-0ae638f32657.png" 
+                  src="/lovable-uploads/WhatsApp Image 2025-05-20 at 5.19.21 PM (1) (1).png" 
                   alt="Sneha Jain & Associates Logo" 
                   className="h-10 w-auto mr-3"
                   style={{ filter: 'brightness(0) saturate(100%) invert(1)' }}
