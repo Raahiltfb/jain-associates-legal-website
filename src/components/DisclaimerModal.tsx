@@ -7,14 +7,11 @@ const DisclaimerModal: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const hasAccepted = localStorage.getItem('legal-disclaimer-accepted');
-    if (!hasAccepted) {
-      setIsVisible(true);
-    }
+    // Always show disclaimer on page load/reload
+    setIsVisible(true);
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('legal-disclaimer-accepted', 'true');
     setIsVisible(false);
   };
 
