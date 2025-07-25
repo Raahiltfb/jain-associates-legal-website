@@ -244,7 +244,7 @@ const About: React.FC = () => {
             </Button>
             <Button className="bg-green-600 hover:bg-green-700" size="lg" asChild>
   <a
-    href="https://wa.me/919876543210"
+    href="https://wa.me/919768181858"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center justify-center text-white font-semibold px-6 py-3"
