@@ -35,7 +35,7 @@ const Home: React.FC = () => {
 
   const whyChooseUs = [
     "3+ years of independent practice experience",
-    "Comprehensive legal expertise across 27+ practice areas",
+    "Comprehensive legal expertise across 20+ practice areas",
     "Client-focused approach with personalized solutions"
   ];
 
