@@ -58,9 +58,9 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="snap-y snap-mandatory overflow-y-auto h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-black mb-6">
@@ -90,7 +90,7 @@ const Testimonials: React.FC = () => {
       </section>
 
       {/* Testimonials Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50 snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
@@ -137,7 +137,7 @@ const Testimonials: React.FC = () => {
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-2xl lg:text-3xl font-bold text-black mb-4">
@@ -180,7 +180,7 @@ const Testimonials: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-white">
+      <section className="py-20 bg-primary text-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Ready to Experience Excellence?

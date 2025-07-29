@@ -46,9 +46,9 @@ const About: React.FC = () => {
   ];
 
   return (
-    <div>
+    <div className="snap-y snap-mandatory overflow-y-auto h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-slate-50 to-blue-50 py-20 snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -63,7 +63,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Founder's Story */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -131,7 +131,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Our Values */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50 snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -159,7 +159,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Our Expertise */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -227,7 +227,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-primary text-white">
+      <section className="py-20 bg-primary text-white snap-start min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Ready to Work with Us?
