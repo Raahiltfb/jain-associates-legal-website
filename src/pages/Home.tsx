@@ -40,10 +40,10 @@ const Home: React.FC = () => {
   ];
 
   return (
-    <div className="snap-y snap-mandatory overflow-y-auto h-screen">
+    <div>
       {/* Hero Section */}
       <section
-        className="relative py-20 lg:py-32 bg-cover bg-center snap-start min-h-screen flex items-center"
+        className="relative py-20 lg:py-32 bg-cover bg-center"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Featured Services */}
-      <section className="py-20 bg-gray-50 snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
@@ -139,7 +139,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gray-100 snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-primary text-white snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Professional Legal Support When You Need It Most

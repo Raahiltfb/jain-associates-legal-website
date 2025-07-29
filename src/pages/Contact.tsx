@@ -93,9 +93,9 @@ Message: ${formData.message}`;
   ];
 
   return (
-    <div className="snap-y snap-mandatory overflow-y-auto h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-black mb-6">
@@ -110,7 +110,7 @@ Message: ${formData.message}`;
       </section>
 
       {/* Contact Options */}
-      <section className="py-20 bg-gray-50 snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-black mb-4">
@@ -155,7 +155,7 @@ Message: ${formData.message}`;
       </section>
 
       {/* Contact Form and Info */}
-      <section className="py-20 bg-white snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
@@ -332,7 +332,7 @@ Message: ${formData.message}`;
       </section>
 
       {/* Emergency Contact */}
-      <section className="py-20 bg-primary text-white snap-start min-h-screen flex items-center">
+      <section className="py-20 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Need Urgent Legal Assistance?
