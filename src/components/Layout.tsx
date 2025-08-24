@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <img 
                 src="/lovable-uploads/0ae5404c-c867-45e8-88aa-1535450af581.png" 
                 alt="Sneha Jain & Associates Logo" 
-                className="h-12 w-auto mr-3"
+                className="h-16 sm:h-12 w-auto mr-3"
               />
               <div className="text-xl lg:text-2xl font-bold text-primary tracking-wide">
                 Sneha Jain & Associates
