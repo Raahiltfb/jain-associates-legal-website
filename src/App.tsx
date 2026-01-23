@@ -10,8 +10,11 @@ import DisclaimerModal from "./components/DisclaimerModal";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import PracticeAreas from "./pages/PracticeAreas";
+import LegalAid from "./pages/LegalAid";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,8 +31,11 @@ const App = () => (
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/practice-areas" element={<PracticeAreas />} />
+            <Route path="/legal-aid" element={<LegalAid />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/terms-of-use" element={<TermsOfUse />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
