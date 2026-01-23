@@ -23,21 +23,12 @@ const DisclaimerModal: React.FC = () => {
         <h2 className="text-xl font-bold mb-4 text-primary">Important Legal Disclaimer</h2>
         <div className="space-y-4 text-sm text-gray-700">
           <p>
-            <strong>As per the Bar Council of India Rules:</strong>
+            <strong>Disclaimer:</strong>
           </p>
           <p>
-            This website is not intended for advertising or solicitation purposes. The information 
-            provided on this website is solely for informational purposes and should not be construed 
-            as legal advice or advertisement.
-          </p>
-          <p>
-            The contents of this website are not intended to create an attorney-client relationship. 
-            Accessing this website or communicating with Sneha Jain & Associates through this website 
-            does not establish an attorney-client relationship.
-          </p>
-          <p>
-            This website complies with the Bar Council of India Rules and does not constitute 
-            advertisement or solicitation of legal work.
+This website has been designed only for the purposes of dissemination of basic information on Sneha Jain & Associates; information which is otherwise available on the internet, various public platforms and social media. Careful attention has been given to ensure that the information provided herein is accurate and up-to-date. However, Sneha Jain & Associates is not responsible for any reliance that a reader places on such information and shall not be liable for any loss or damage caused due to any inaccuracy in or exclusion of any information, or its interpretation thereof. Reader is advised to confirm the veracity of the same from independent and expert sources.
+
+
           </p>
         </div>
         <div className="mt-6 flex justify-end">
