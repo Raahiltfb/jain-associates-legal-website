@@ -1,14 +1,13 @@
-
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+// Imports kept to prevent errors if you restore sections later
 import { Scale, Users, Heart, FileText, Shield, HandHeart, ArrowRight } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
 
-
-
+const LegalAid: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       {/* Hero Section */}
       <section className="py-20 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,7 +24,10 @@ import { Scale, Users, Heart, FileText, Shield, HandHeart, ArrowRight } from 'lu
         </div>
       </section>
 
- 
+      {/* Main Content Area - Reduced Spacer */}
+      <div className="flex-grow bg-white">
+        {/* Temporarily empty to focus on CTA below */}
+      </div>
 
       {/* CTA Section */}
       <section className="py-20 bg-white">
