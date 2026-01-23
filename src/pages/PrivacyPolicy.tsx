@@ -35,7 +35,7 @@ const PrivacyPolicy: React.FC = () => {
 
             <h2 className="text-2xl font-bold text-primary">General</h2>
             <p>
-              1.1 The Platform are owned and managed by <strong>Sneha Jain & Associates</strong> (“We” or “Us” or “Our”), a full-service law firm engaged in providing legal services (“Services”) with our offices at Peninsula Chambers, Peninsula Corporate Park, Ganpatrao Kadam Marg, Lower Parel, Mumbai 400 013, India amongst other locations in India. This Privacy Policy applies to all current and former users accessing or using Our Platform, or otherwise engaging with us through email or other means (collectively, “You” or “Your”).
+              1.1 The Platform are owned and managed by <strong>Sneha Jain & Associates</strong> (“We” or “Us” or “Our”), a full-service law firm engaged in providing legal services (“Services”) with our offices at Address, Address, Address, City 000 000, India amongst other locations in India. This Privacy Policy applies to all current and former users accessing or using Our Platform, or otherwise engaging with us through email or other means (collectively, “You” or “Your”).
             </p>
             <p>
               1.2 The collection and processing of information in the course of our delivery of Services, or other contractual or commercial engagements that we may enter into, will be done in accordance with the specific terms applicable thereto, and not by this Privacy Policy.
@@ -156,12 +156,12 @@ const PrivacyPolicy: React.FC = () => {
             <p>In accordance with the IT Act and rules made there under, the name and contact details of the Grievance Officer are provided below:</p>
             <p>
               <strong>Ms. Sneha Jain</strong><br />
-              You may write to him at the following address:<br />
+              You may write to her at the following address:<br />
               <strong>Sneha Jain & Associates</strong><br />
               Address Line 1,<br />
               Address 2, City 000000, State, INDIA<br />
               Or<br />
-              Email him at advsnehajain@gmail.com
+              Email her at advsnehajain@gmail.com
             </p>
           </div>
         </div>
