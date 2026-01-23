@@ -46,9 +46,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 alt="Sneha Jain & Associates Logo" 
                 className="h-16 sm:h-12 w-auto mr-3"
               />
-              <div className="text-xl lg:text-2xl font-bold text-primary tracking-wide">
-                Sneha Jain & Associates
-              </div>
+
             </Link>
 
             {/* Desktop Navigation */}
