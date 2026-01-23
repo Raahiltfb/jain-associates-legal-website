@@ -38,13 +38,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Logo */}
             <Link 
               to="/" 
-              className="flex items-center"
+              className="flex items-center py-2"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
               <img 
                 src="/lovable-uploads/0ae5404c-c867-45e8-88aa-1535450af581.png" 
                 alt="Sneha Jain & Associates Logo" 
-                className="h-16 sm:h-12 w-auto mr-3"
+                className="h-20 sm:h-24 w-auto mr-3 transition-transform hover:scale-105"
               />
 
             </Link>
