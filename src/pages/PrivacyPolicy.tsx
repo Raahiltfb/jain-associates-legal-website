@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const PrivacyPolicy: React.FC = () => {
@@ -11,7 +10,7 @@ const PrivacyPolicy: React.FC = () => {
             Privacy Policy
           </h1>
           <p className="text-center mt-4 opacity-90">
-            Last updated: January 2025
+            Last updated: January 2026
           </p>
         </div>
       </section>
@@ -19,111 +18,108 @@ const PrivacyPolicy: React.FC = () => {
       {/* Content Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none text-gray-700">
-            <h2 className="text-2xl font-bold text-primary mb-4">1. Introduction</h2>
-            <p className="mb-6">
-              Sneha Jain & Associates ("we," "our," or "us") is committed to protecting your 
-              privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard 
-              your information when you visit our website or use our services.
-            </p>
+          <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+            
+            <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-primary italic">
+              <p className="mb-0">
+                This Privacy Policy (“Privacy Policy”) is published in compliance with inter alia: Section 43A of the Information Technology Act, 2000 (“IT Act”); Rule 4 of the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 (“SPDI Rules”); and Rule 3(1) of the Information Technology (Intermediaries Guidelines) Rules, 2011.
+              </p>
+            </div>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Information We Collect</h2>
-            <p className="mb-4">We may collect information about you in various ways, including:</p>
-            <ul className="list-disc pl-6 mb-6">
-              <li><strong>Personal Information:</strong> Name, email address, phone number, and other contact details you provide when filling out forms or contacting us.</li>
-              <li><strong>Case Information:</strong> Details related to legal matters you discuss with us during consultations.</li>
-              <li><strong>Technical Data:</strong> IP address, browser type, operating system, and other technical information collected automatically when you visit our website.</li>
-              <li><strong>Usage Data:</strong> Information about how you use our website and services.</li>
-            </ul>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">1. General</h2>
+              <div className="space-y-4">
+                <p>
+                  <strong>1.1</strong> The Platform are owned and managed by <strong>Sneha Jain & Associates</strong> (“We” or “Us” or “Our”), a full-service law firm engaged in providing legal services (“Services”). This Privacy Policy applies to all current and former users accessing or using Our Platform, or otherwise engaging with us through email or other means (collectively, “You” or “Your”).
+                </p>
+                <p>
+                  <strong>1.2</strong> The collection and processing of information in the course of our delivery of Services, or other contractual or commercial engagements that we may enter into, will be done in accordance with the specific terms applicable thereto, and not by this Privacy Policy.
+                </p>
+                <p>
+                  <strong>1.3</strong> By accessing or using Our Platform or by otherwise giving Us Your information, You confirm that You have the capacity to enter into a legally binding contract and have read, understood and agreed to the practices and policies outlined in this Privacy Policy.
+                </p>
+                <p>
+                  <strong>1.4</strong> You hereby consent to Our collection, use, sharing, and disclosure of Your information as described in this Privacy Policy.
+                </p>
+              </div>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">3. How We Use Your Information</h2>
-            <p className="mb-4">We may use the information we collect for purposes including:</p>
-            <ul className="list-disc pl-6 mb-6">
-              <li>Responding to your inquiries and providing legal services</li>
-              <li>Communicating with you about our services</li>
-              <li>Improving our website and services</li>
-              <li>Complying with legal obligations</li>
-              <li>Protecting our rights and interests</li>
-            </ul>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">2. Information Collected and Method of Collection</h2>
+              <p className="mb-4">We collect User Information, Demographic Information, Behavioural Information, and Indirect Information:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>User Information:</strong> Name, email address, mobile number, the company/organization You work for, title, designation, and physical addresses. We may also collect details for meetings such as accessibility and dietary requirements which may imply health information.</li>
+                <li><strong>Demographic Information:</strong> Age, gender, and current location details.</li>
+                <li><strong>Behavioral Information:</strong> Usage statistics, traffic data, IP address, browser type, and navigation patterns on the Platform.</li>
+                <li><strong>Indirect Information:</strong> Data collected through third-party services used on the Platform.</li>
+              </ul>
+              <p className="mt-4 italic">
+                Note: Sensitive Personal Data or Information (SPDI) such as passwords, financial info, or medical history is handled with the highest level of care as per the SPDI Rules.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Confidentiality</h2>
-            <p className="mb-6">
-              We maintain strict confidentiality of all client information in accordance with 
-              the Bar Council of India rules and applicable laws. Information shared during 
-              attorney-client consultations is protected by professional privilege and will 
-              not be disclosed without your consent, except as required by law.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">3. Use of Information</h2>
+              <p className="mb-4">We use Your Information for Purposes including:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Operating and improving the Platform and fostering user experience.</li>
+                <li>Analyzing data, tracking trends, and building algorithms.</li>
+                <li>Internal operations such as record keeping, accounting, and taxation compliance.</li>
+                <li>Providing regulatory updates and inviting You to seminars or webinars.</li>
+                <li>Investigating or preventing illegal activities and fraud.</li>
+                <li>Responding to queries and recording feedback.</li>
+              </ul>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Information Sharing</h2>
-            <p className="mb-4">We may share your information in the following circumstances:</p>
-            <ul className="list-disc pl-6 mb-6">
-              <li>With your consent or at your direction</li>
-              <li>With service providers who assist us in operating our website and providing services</li>
-              <li>To comply with legal obligations or court orders</li>
-              <li>To protect our rights, privacy, safety, or property</li>
-            </ul>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">4. Disclosure of Information</h2>
+              <p>We may disclose Your Information to third parties in the following ways:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>To counterparties, consultants, advisors, and insurers acting on our behalf.</li>
+                <li>To agents, contractors, or third-party service providers (data centers, mailing houses).</li>
+                <li>To comply with legal requirements, protect our rights, or prevent a crime.</li>
+                <li>We may transfer Information to persons outside India in furtherance of the above purposes.</li>
+              </ul>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Data Security</h2>
-            <p className="mb-6">
-              We implement appropriate technical and organizational measures to protect your 
-              personal information against unauthorized access, alteration, disclosure, or 
-              destruction. However, no method of transmission over the internet is 100% secure, 
-              and we cannot guarantee absolute security.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">5. Your Rights and Changes to Information</h2>
+              <p>
+                You may review, correct, update, or delete Your Personal Information by emailing us at <strong>adv.snehajain@gmail.com</strong>. While we will comply with deletion requests within a reasonable time, some information may be retained for legal purposes. Please note that deleting certain info may result in your inability to access the Platform.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Cookies</h2>
-            <p className="mb-6">
-              Our website may use cookies and similar tracking technologies to enhance your 
-              browsing experience. You can set your browser to refuse cookies, but this may 
-              limit your ability to use certain features of our website.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">6. Security and Retention</h2>
+              <p>
+                We maintain physical, technical, and procedural safeguards to protect Your Information. Personal Information is typically destroyed or anonymized within <strong>5 (five) years</strong> after the purpose for collection is served, unless required longer by law.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Third-Party Links</h2>
-            <p className="mb-6">
-              Our website may contain links to third-party websites. We are not responsible 
-              for the privacy practices of these websites. We encourage you to read the privacy 
-              policies of any third-party websites you visit.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">7. Disclaimer and Indemnity</h2>
+              <p>
+                While we are committed to protecting your privacy, we cannot ensure that Your Information will never be disclosed in ways not described here. You assume all responsibility and risk for Your use of the Platform. You agree to indemnify <strong>Sneha Jain & Associates</strong> against any suit arising from your disclosure of information to third parties through our Platform.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Your Rights</h2>
-            <p className="mb-4">You have the right to:</p>
-            <ul className="list-disc pl-6 mb-6">
-              <li>Access the personal information we hold about you</li>
-              <li>Request correction of inaccurate information</li>
-              <li>Request deletion of your information (subject to legal obligations)</li>
-              <li>Object to processing of your information</li>
-              <li>Withdraw consent at any time</li>
-            </ul>
+            <section className="bg-gray-100 p-8 rounded-lg">
+              <h2 className="text-2xl font-bold text-primary mb-4">8. Grievance Officer</h2>
+              <p>In accordance with the IT Act, the contact details of the Grievance Officer are:</p>
+              <p className="mt-4">
+                <strong>Ms. Sneha Jain</strong><br />
+                Sneha Jain & Associates<br />
+                Address Line 1,<br />
+                Address Line 2, City 000000, State, INDIA<br />
+                <strong>Email:</strong> adv.snehajain@gmail.com
+              </p>
+              <div className="mt-6 pt-6 border-t border-gray-300">
+                <p className="font-bold">General Contact:</p>
+                <p>Email: adv.snehajain@gmail.com</p>
+                <p>Phone: +91 97681 81858</p>
+              </div>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">10. Retention of Information</h2>
-            <p className="mb-6">
-              We retain your personal information for as long as necessary to fulfill the 
-              purposes for which it was collected, including to satisfy any legal, accounting, 
-              or reporting requirements.
-            </p>
-
-            <h2 className="text-2xl font-bold text-primary mb-4">11. Children's Privacy</h2>
-            <p className="mb-6">
-              Our website is not intended for children under 18 years of age. We do not 
-              knowingly collect personal information from children under 18.
-            </p>
-
-            <h2 className="text-2xl font-bold text-primary mb-4">12. Changes to This Policy</h2>
-            <p className="mb-6">
-              We may update this Privacy Policy from time to time. We will notify you of any 
-              changes by posting the new Privacy Policy on this page and updating the "Last 
-              updated" date.
-            </p>
-
-            <h2 className="text-2xl font-bold text-primary mb-4">13. Contact Us</h2>
-            <p className="mb-6">
-              If you have any questions about this Privacy Policy or our data practices, 
-              please contact us at:
-              <br /><br />
-              <strong>Sneha Jain & Associates</strong><br />
-              Email: adv.snehajain@gmail.com<br />
-              Phone: +91 97681 81858
-            </p>
           </div>
         </div>
       </section>
