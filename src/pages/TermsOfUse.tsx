@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const TermsOfUse: React.FC = () => {
@@ -11,7 +10,7 @@ const TermsOfUse: React.FC = () => {
             Terms of Use
           </h1>
           <p className="text-center mt-4 opacity-90">
-            Last updated: January 2025
+            Last updated: January 2026
           </p>
         </div>
       </section>
@@ -19,98 +18,104 @@ const TermsOfUse: React.FC = () => {
       {/* Content Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none text-gray-700">
-            <h2 className="text-2xl font-bold text-primary mb-4">1. Acceptance of Terms</h2>
-            <p className="mb-6">
-              By accessing and using this website, you accept and agree to be bound by the terms 
-              and provisions of this agreement. If you do not agree to abide by these terms, 
-              please do not use this website.
-            </p>
+          <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+            
+            <div className="bg-gray-100 p-6 rounded-lg border-l-4 border-primary">
+              <p className="font-medium">
+                This Terms of Use Agreement (the “Terms of Use” or “Agreement”) describes the terms and conditions applicable to your access and use of the Website. By using the Website or accessing any content available through the Website, you accept this Agreement.
+              </p>
+            </div>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Website Purpose</h2>
-            <p className="mb-6">
-              This website has been designed only for the purposes of dissemination of basic 
-              information on Sneha Jain & Associates. The information provided on this website 
-              is for general informational purposes only and should not be construed as legal advice.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">1. Acceptance and Changes</h2>
+              <p>
+                <strong>Sneha Jain & Associates</strong> may revise this Agreement at any time by posting revised Terms of Use on the Website. Your use of the Website after such changes will constitute your acceptance of such changes. This website is provided as a complimentary facility for general information only.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">3. No Attorney-Client Relationship</h2>
-            <p className="mb-6">
-              The use of this website or any communication through this website does not create 
-              an attorney-client relationship between you and Sneha Jain & Associates. No 
-              attorney-client relationship is formed until a formal engagement letter is signed 
-              by both parties.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">2. No Attorney-Client Relationship</h2>
+              <p>
+                The content on this Website is not designed or intended to provide legal advice or create a lawyer-client relationship and is not intended to solicit clients or work. You should not take, or refrain from taking, action based on the content of this Website. <strong>Sneha Jain & Associates</strong> and its partners, consultants, or employees accept no responsibility for any loss or damage resulting from reliance on any content on the Website.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Disclaimer of Legal Advice</h2>
-            <p className="mb-6">
-              The information contained in this website is provided for informational purposes 
-              only and should not be construed as legal advice on any subject matter. Visitors 
-              should not act or refrain from acting on the basis of any content included in 
-              this website without seeking appropriate legal or other professional advice.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">3. Proprietary Rights</h2>
+              <p>
+                The Website and its Content are the sole and exclusive property of <strong>Sneha Jain & Associates</strong>. You agree not to reproduce, duplicate, copy, sell, or exploit any portion of the Website for commercial purposes without express written authorization. Use of the Website or Content in any way not expressly permitted by this Agreement is prohibited.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Accuracy of Information</h2>
-            <p className="mb-6">
-              While we strive to keep the information on this website accurate and up-to-date, 
-              we make no representations or warranties of any kind, express or implied, about 
-              the completeness, accuracy, reliability, suitability, or availability of the 
-              information contained on the website.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">4. Permitted Uses and Restrictions</h2>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>You may view and/or print a single copy of the Content for personal use.</li>
+                <li>You must not remove or modify any acknowledgments, credits, or legal notices.</li>
+                <li>You agree not to damage, disable, or impair the Website or interfere with any other party’s use.</li>
+                <li>Access via shared devices: We strongly recommend clearing your browsing history, cookies, and cache after use on shared devices.</li>
+              </ul>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Bar Council Guidelines</h2>
-            <p className="mb-6">
-              This website is not intended to be a source of advertising or solicitation. The 
-              contents of this website are in accordance with the Bar Council of India guidelines 
-              for websites of advocates. We do not wish to represent that we are better than 
-              any other firm.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">5. Third-Party Links and Maps</h2>
+              <p>
+                The Website may contain links to third-party websites for your convenience. These sites are not under our control, and we are not responsible for their content. Furthermore, maps used on our website are sourced via open license from Google; boundaries and names shown do not imply an expression of opinion by <strong>Sneha Jain & Associates</strong> regarding the legal status of any region.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Intellectual Property</h2>
-            <p className="mb-6">
-              All content on this website, including text, graphics, logos, and images, is the 
-              property of Sneha Jain & Associates and is protected by applicable copyright and 
-              trademark laws. Unauthorized use of any content may violate copyright, trademark, 
-              and other laws.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">6. Disclaimers of Liability</h2>
+              <p className="italic">
+                The Website and all content are provided on an “AS IS” and “AS AVAILABLE” basis without warranty of any kind, express or implied.
+              </p>
+              <p>
+                <strong>Sneha Jain & Associates</strong> makes no representations that use of the website will be uninterrupted, error-free, or virus-free. To the maximum extent permitted by law, we disclaim all liability for any direct, indirect, incidental, or special damages arising out of or connected with access to or use of the Website.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Third-Party Links</h2>
-            <p className="mb-6">
-              This website may contain links to third-party websites. These links are provided 
-              for your convenience only. We have no control over the content of these websites 
-              and accept no responsibility for them or for any loss or damage that may arise 
-              from your use of them.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">7. Indemnity</h2>
+              <p>
+                You agree to indemnify, defend, and hold <strong>Sneha Jain & Associates</strong>, its affiliates, and their respective officers and partners harmless from any loss, liability, claim, or demand, including reasonable attorneys’ fees, due to or arising out of your use of the Website or breach of this Agreement.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Limitation of Liability</h2>
-            <p className="mb-6">
-              Sneha Jain & Associates shall not be liable for any direct, indirect, incidental, 
-              special, consequential, or punitive damages arising out of your access to, or use 
-              of, this website.
-            </p>
+            <section className="bg-blue-50 p-8 rounded-lg border border-blue-100">
+              <h2 className="text-2xl font-bold text-primary mb-4">8. Claims of Infringement</h2>
+              <p className="mb-4">
+                If you believe your work has been copied in a way that constitutes copyright infringement, please provide the following to our Office of the General Counsel:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 mb-4 text-sm">
+                <li>Physical or electronic signature of the authorized person.</li>
+                <li>Description of the copyrighted work and its location (URL) on our site.</li>
+                <li>Your contact information (Name, address, telephone, email).</li>
+                <li>A statement of good faith belief and a statement under penalty of perjury regarding accuracy.</li>
+              </ul>
+              <p className="font-bold">Contact for Legal Notices:</p>
+              <p className="text-sm">
+                Office of the General Counsel, c/o Sneha Jain & Associates<br />
+                Peninsula Chambers, Peninsula Corporate Park, GK Marg,<br />
+                Lower Parel, 400013, Mumbai, India<br />
+                <strong>Email:</strong> ogc@cyrilshroff.com (cc: cam.digital@cyrilshroff.com)
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">10. Governing Law</h2>
-            <p className="mb-6">
-              These terms and conditions are governed by and construed in accordance with the 
-              laws of India, and any disputes relating to these terms and conditions will be 
-              subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra.
-            </p>
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-4">9. Miscellaneous</h2>
+              <p>
+                Any cause of action with respect to this Website must be commenced within <strong>six (6) months</strong> after the claim arises. If any provision is held invalid, the remaining provisions stay in full force. These Terms of Use set forth the entire agreement between you and <strong>Sneha Jain & Associates</strong>.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-bold text-primary mb-4">11. Changes to Terms</h2>
-            <p className="mb-6">
-              We reserve the right to modify these terms at any time. Changes will be effective 
-              immediately upon posting to the website. Your continued use of the website after 
-              any changes indicates your acceptance of the modified terms.
-            </p>
-
-            <h2 className="text-2xl font-bold text-primary mb-4">12. Contact Information</h2>
-            <p className="mb-6">
-              If you have any questions about these Terms of Use, please contact us at:
-              <br /><br />
-              <strong>Sneha Jain & Associates</strong><br />
-              Email: adv.snehajain@gmail.com<br />
-              Phone: +91 97681 81858
-            </p>
+            <section className="pt-8 border-t border-gray-200">
+              <h2 className="text-xl font-bold text-primary mb-2">Contact Us</h2>
+              <p>
+                <strong>Sneha Jain & Associates</strong><br />
+                Email: adv.snehajain@gmail.com<br />
+                Phone: +91 97681 81858
+              </p>
+            </section>
           </div>
         </div>
       </section>
