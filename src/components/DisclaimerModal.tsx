@@ -26,9 +26,15 @@ const DisclaimerModal: React.FC = () => {
             <strong>Disclaimer:</strong>
           </p>
           <p>
-This website has been designed only for the purposes of dissemination of basic information on Sneha Jain & Associates; information which is otherwise available on the internet, various public platforms and social media. Careful attention has been given to ensure that the information provided herein is accurate and up-to-date. However, Sneha Jain & Associates is not responsible for any reliance that a reader places on such information and shall not be liable for any loss or damage caused due to any inaccuracy in or exclusion of any information, or its interpretation thereof. Reader is advised to confirm the veracity of the same from independent and expert sources.
-
-
+            This website has been designed only for the purposes of dissemination of basic information on Sneha Jain & Associates; information which is otherwise available on the internet, various public platforms and social media.
+          </p>
+          
+        <p>
+          Careful attention has been given to ensure that the information provided herein is accurate and up-to-date. However, Sneha Jain & Associates is not responsible for any reliance that a reader places on such information and shall not be liable for any loss or damage caused due to any inaccuracy in or exclusion of any information, or its interpretation thereof.
+        </p>
+          
+          <p>Reader is advised to confirm the veracity of the same from independent and expert sources.
+           
           </p>
         </div>
         <div className="mt-6 flex justify-end">
